@@ -1,0 +1,13 @@
+[build]
+  command = "npm install"
+  publish = "."
+
+[[redirects]]
+  from = "/api/gemini/insight"
+  to = "/.netlify/functions/insight"
+  status = 200
+
+[[redirects]]
+  from = "/api/gemini/scan-nota"
+  to = "/.netlify/functions/scan-nota"
+  status = 200
